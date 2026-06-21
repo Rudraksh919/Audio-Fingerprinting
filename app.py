@@ -22,6 +22,7 @@ if not os.path.exists("song_database.db"):
         repo_id="astroboy619/audio-fingerprint-db",
         repo_type="dataset",
         local_dir="."
+        token=st.secrets["HF_TOKEN"]
     )
 
 #configuring UI
